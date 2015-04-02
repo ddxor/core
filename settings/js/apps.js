@@ -111,7 +111,7 @@ OC.Settings.Apps = OC.Settings.Apps || {
 
 				$('.app-level .official').tipsy({fallback: t('core', 'Official apps are developed by and within the ownCloud community and its GitHub repository and offer functionality central to ownCloud. They are ready for serious use.')});
 				$('.app-level .approved').tipsy({fallback: t('core', 'Approved apps are developed by trusted developers and have passed a cursory security check. They are actively maintained in an open code repository and their maintainers deem them to be stable for casual to normal use.')});
-				$('.app-level .experimental').tipsy({fallback: t('core', 'Apps which have not been checked at all for security and are new or known to be unstable and under heavy development but are considered usable for casual use or experimentation.')});
+				$('.app-level .experimental').tipsy({fallback: t('core', 'This app is not checked for security issues and is new or known to be unstable. Install on your own risk.')});
 			},
 			complete: function() {
 				$('#apps-list').removeClass('icon-loading');
